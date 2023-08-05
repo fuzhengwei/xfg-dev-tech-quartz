@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+# 日志
+logging:
+  level:
+    root: info
+    RocketmqClient: ERROR
+    io:
+      netty: ERROR
+  config: classpath:logback-spring.xml
