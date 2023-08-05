@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component()
-@ExtScheduleJobConfig(state = true, jobName = "测试任务", cronExpression = "0/3 * * * * ?")
+@ExtScheduleJobConfig(state = false, jobName = "测试任务", cronExpression = "0/3 * * * * ?")
 public class ScheduleJob extends ExtScheduleJob {
 
     @Override
